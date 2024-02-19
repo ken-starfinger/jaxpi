@@ -10,8 +10,8 @@ from jax.tree_util import tree_map, tree_reduce, tree_leaves
 
 import optax
 
-from jaxpi import archs
-from jaxpi.utils import flatten_pytree
+import archs
+from utils import flatten_pytree
 
 
 class TrainState(train_state.TrainState):
