@@ -3,7 +3,7 @@ import jax.numpy as jnp
 from jax import jacrev
 from jax.tree_util import tree_map
 
-from jaxpi.utils import flatten_pytree
+from utils import flatten_pytree
 
 
 class BaseEvaluator:
